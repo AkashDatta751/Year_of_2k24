@@ -39,12 +39,12 @@ section {
 
 h3 {
 z-index: 1;
-  font-size: 2.5em; /* Adjust the font size as needed */
+  font-size: 2.5em;
 }
 
 h1 {
   z-index: 1;
-  font-size: 3.5em; /* Adjust the font size as needed */
+  font-size: 3.5em; 
 }
 
 .orange-font {
@@ -56,10 +56,10 @@ h1 {
   text-align: center;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 100px;
 }
 .offerImg {
   height: 70%;
-  /* background: #000; */
 }
 .offerImg img {
   height: 100%;
@@ -160,6 +160,17 @@ h1 {
   margin-left: auto;
   margin-right: auto;
 }
+.Subscribe-section{
+  width: 80vw;
+  height: 40vh !important;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  border: 2px solid rgb(255, 68, 0);
+  border-radius: 20px;
+  padding: 20px;
+  margin-bottom: 30px;
+}
 
 .sub-form{
   display:inline-block;
@@ -179,6 +190,8 @@ h1 {
 }
 
 .footer-section{
+  width: 90vw;
+  padding: 30px;
   background: #070211;
   color: white;
 }
@@ -209,4 +222,11 @@ button {
   margin-right: 10px;
   border: 1px solid #ccc;
   border-radius: 5px;
+}
+
+.footer-contact{
+  display: flex;
+}
+.footer-contact p{
+  padding-left: 10px;
 }
